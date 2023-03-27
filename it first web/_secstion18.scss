@@ -1,0 +1,202 @@
+
+
+
+.secstion18{
+    @include secmax;
+    justify-content: space-between;
+    position: relative;
+    top: 80px;
+
+    .mainbox1{
+        height: 520px;
+        width: 45%;
+       background-color: white;
+
+       .subbox1{
+        
+        @include mainsubboxes;
+        position: relative;
+        top: 30px;
+        left: 20px;
+       
+
+       i{
+       
+        @include  subboxi;
+       }
+       h3{
+       
+
+    @include mainsubboxh3;
+       }
+
+       p{
+       
+
+        @include subboxparagraph;
+       }
+    }
+
+    .subbox2{
+        
+        @include mainsubboxes;
+        position: relative;
+        top: -120px;
+        left: 260px;
+       
+
+       i{
+       
+        @include  subboxi;
+       }
+       h3{
+       
+
+    @include mainsubboxh3;
+       }
+
+       p{
+       
+
+        @include subboxparagraph;
+       }
+    }
+
+    .subbox3{
+        
+        @include mainsubboxes;
+        position: relative;
+        top: -30px;
+        left: 20px;
+       
+
+       i{
+       
+        @include  subboxi;
+       }
+       h3{
+       
+
+    @include mainsubboxh3;
+       }
+
+       p{
+       
+
+        @include subboxparagraph;
+       }
+    }
+
+
+    .subbox4{
+        
+        @include mainsubboxes;
+        position: relative;
+        top: -180px;
+        left: 260px;
+       
+
+       i{
+       
+        @include  subboxi;
+       }
+       h3{
+       
+
+    @include mainsubboxh3;
+       }
+
+       p{
+       
+
+        @include subboxparagraph;
+       }
+    }
+    }
+
+    .mainbox2{
+        height: 520px;
+        width: 45%;
+     background-color: #fafbff;
+    
+
+     .form{
+                position: relative;
+                top: 50px;
+                left: 50px;
+                padding-left: 5px;
+                justify-content: space-between;
+   
+           
+             input[type = text] {
+                height: 40px;
+                width: 200px;
+                background-color: #fff;
+   
+                border: 1px solid #ced4da;
+                font-size: 14px;
+                
+   
+              
+        }
+
+
+        input[type = mail] {
+            height: 40px;
+            width: 200px;
+            background-color: #fff;
+
+            border: 1px solid #ced4da;
+            font-size: 14px;
+            position: relative;
+            left: 15px;
+           
+          
+    }
+
+    input[type = subject] {
+        height: 40px;
+        width: 425px;
+        background-color: #fff;
+
+        border: 1px solid #ced4da;
+        font-size: 14px;
+        position: relative;
+        top: 20px;
+        
+     
+}
+
+input[type = message] {
+    height: 150px;
+    width: 425px;
+    background-color: #fff;
+
+    border: 1px solid #ced4da;
+    font-size: 14px;
+    position: relative;
+    top: 60px;
+   
+
+     }
+
+
+     button{
+        height: 50px;
+        width: 150px;
+        background-color: blue;
+        border-radius: 10px;
+        position: relative;
+        top: 115px;
+        left: 120px;
+        font-size: 20px;
+        color: white;
+
+        &:hover{
+            background-color: #4154f1;
+            color: #fff;
+        }
+}
+}
+    }
+}

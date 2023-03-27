@@ -1,0 +1,153 @@
+
+    .secstion16{
+
+             
+        @include secmax;
+        justify-content: space-between;
+
+        .box1{
+            @include teamsubbox;
+            transition: all 0.4s;
+
+
+            img{
+               
+
+                @include teamimage;
+
+            }
+            h3{
+                text-align: center;
+                color: #012970;
+            }
+
+            h4{
+               
+
+                @include teamh4;
+            }
+
+            h5{
+              
+                
+                @include teamh5;
+
+        }
+
+        &:hover{
+            transform: scale(1.1);
+          }
+
+
+    }
+        
+    .box2{
+        @include teamsubbox;
+        transition: all 0.4s;
+
+
+        img{
+           
+
+            @include teamimage;
+
+        }
+        h3{
+            text-align: center;
+            color: #012970;
+        }
+
+        h4{
+           
+
+            @include teamh4;
+        }
+
+        h5{
+          
+            
+            @include teamh5;
+
+    }
+
+    &:hover{
+        transform: scale(1.1);
+      }
+
+
+}
+
+.box3{
+    @include teamsubbox;
+    transition: all 0.4s;
+
+
+    img{
+       
+
+        @include teamimage;
+
+    }
+    h3{
+        text-align: center;
+        color: #012970;
+    }
+
+    h4{
+       
+
+        @include teamh4;
+    }
+
+    h5{
+      
+        
+        @include teamh5;
+
+}
+
+&:hover{
+    transform: scale(1.1);
+  }
+
+
+}
+
+
+.box4{
+    @include teamsubbox;
+    transition: all 0.4s;
+
+
+    img{
+       
+
+        @include teamimage;
+
+    }
+    h3{
+        text-align: center;
+        color: #012970;
+    }
+
+    h4{
+       
+
+        @include teamh4;
+    }
+
+    h5{
+      
+        
+        @include teamh5;
+
+}
+
+&:hover{
+    transform: scale(1.1);
+  }
+
+
+}
+
+}

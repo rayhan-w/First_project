@@ -1,0 +1,100 @@
+
+        .secstion3{
+            height: 500px;
+            width: 100%;
+            background-color: white;
+            display: flex;
+            margin: 20px;
+            justify-content: space-between;
+
+            .box1{
+
+                @include box; 
+                position: relative;
+                left: 80px;
+                
+
+                img{
+               
+                @include img; 
+                  
+                   &:hover{
+                    transform: scale(1.1);
+                   }
+               
+                   
+                }
+
+                h3{
+                    @include h3;
+                    
+                }
+
+                p{
+                    
+                    @include p; 
+
+                }
+
+            }
+            .box2{
+
+                @include box; 
+
+
+                
+                img{
+               
+                    @include img; 
+                      
+                       &:hover{
+                        transform: scale(1.1);
+                       }
+            }
+
+
+            h3{
+                @include h3;
+                
+            }
+
+            p{
+                
+                @include p; 
+
+            }
+
+        }
+            .box3{
+
+                @include box; 
+                position: relative;
+                right: 80px;
+
+                
+                img{
+               
+                    @include img; 
+                      
+                       &:hover{
+                        transform: scale(1.1);
+                       }
+
+
+            }
+
+
+            h3{
+                @include h3;
+                
+            }
+
+            p{
+                
+                @include p; 
+
+            }
+
+    }
+
+}

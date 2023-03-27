@@ -1,0 +1,298 @@
+
+
+    
+    .secstion10{
+            
+        @include secmax;
+        justify-content: space-between;
+
+        .box1{
+            @include subboxy;
+            transition: all 0.4s;
+            h4{
+                @include pricehover;
+                color:  #07d5c0;
+            }
+
+                .price{
+                   
+                    @include priceicon;
+                    color:  #444444;
+                    sup{
+                      
+                  
+                        @include boxsupp;
+                        color:  #444444;
+
+                    }
+                    p{
+                       
+                        @include priceiconp;
+                        color:  #bababa;
+                        
+                    }
+                }
+
+                img{
+                  
+                    @include priceimage;
+
+                }
+
+                h6{
+                   
+                    @include priceh6;
+
+                }
+
+
+                p{
+
+                del{
+                    
+                    @include pricepdel;
+                }
+
+            }
+
+            del{
+                
+
+                @include pricedel;
+            }
+
+                button{
+                  
+                    @include pricebutton;
+
+                    &:hover{
+                        background-color: blue;
+                        color: white;
+                    }
+
+                   
+                }
+
+                &:hover{
+                    transform: scale(1.1);
+                  }
+
+        }
+       
+
+
+        .box2{
+            @include subboxy;
+            transition: all 0.4s;
+            h4{
+                @include pricehover;
+                color:  #65c600;
+            }
+
+                .price{
+                   
+                    @include priceicon;
+                    color:  #444444;
+                    sup{
+                      
+                  
+                        @include boxsupp;
+                        color:  #444444;
+
+                    }
+                    p{
+                       
+                        @include priceiconp;
+                        color:  #bababa;
+                        
+                    }
+                }
+
+                img{
+                  
+                    @include priceimage;
+
+                }
+
+                h6{
+                   
+                    @include priceh6;
+
+                }
+
+
+              
+
+            del{
+                
+
+                @include pricedel;
+            }
+
+                button{
+                  
+                    @include pricebutton;
+
+                    &:hover{
+                        background-color: blue;
+                        color: white;
+                    }
+
+                   
+                }
+
+                &:hover{
+                    transform: scale(1.1);
+                  }
+
+                  .boxshape{
+                   
+
+                    border-bottom: 20px solid blue;
+                    border-left: 15px solid transparent;
+                    border-right: 15px solid transparent;
+                    height: 0;
+                    width: 70px;
+                    transform: rotate(45deg);
+                    position: relative;
+                    bottom: 667px;
+                    left: 179.7px;
+                    
+                    p{
+                        text-align: center;
+                        color: white;
+                    }
+
+
+                }
+
+              
+                  
+
+        }
+
+
+
+        .box3{
+            @include subboxy;
+            transition: all 0.4s;
+            h4{
+                @include pricehover;
+                color:   #ff901c;
+            }
+
+                .price{
+                   
+                    @include priceicon;
+                    color:  #444444;
+                    sup{
+                      
+                  
+                        @include boxsupp;
+                        color:  #444444;
+
+                    }
+                    p{
+                       
+                        @include priceiconp;
+                        color:  #bababa;
+                        
+                    }
+                }
+
+                img{
+                  
+                    @include priceimage;
+
+                }
+
+                h6{
+                   
+                    @include priceh6;
+
+                }
+
+
+             
+
+                button{
+                  
+                    @include pricebutton;
+
+                    &:hover{
+                        background-color: blue;
+                        color: white;
+                    }
+
+                   
+                }
+
+                &:hover{
+                    transform: scale(1.1);
+                  }
+
+        }
+
+
+
+        .box4{
+            @include subboxy;
+            transition: all 0.4s;
+            h4{
+                @include pricehover;
+                color:  #ff0071;
+            }
+
+                .price{
+                   
+                    @include priceicon;
+                    color:  #444444;
+                    sup{
+                      
+                  
+                        @include boxsupp;
+                        color:  #444444;
+
+                    }
+                    p{
+                       
+                        @include priceiconp;
+                        color:  #bababa;
+                        
+                    }
+                }
+
+                img{
+                  
+                    @include priceimage;
+
+                }
+
+                h6{
+                   
+                    @include priceh6;
+
+                }
+
+
+             
+
+                button{
+                  
+                    @include pricebutton;
+
+                    &:hover{
+                        background-color: blue;
+                        color: white;
+                    }
+
+                   
+                }
+
+                &:hover{
+                    transform: scale(1.1);
+                  }
+
+        }
+
+    }

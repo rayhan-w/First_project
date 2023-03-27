@@ -1,0 +1,175 @@
+
+   .secstion8{
+
+          
+    justify-content: space-between;
+
+    @include secmax;
+
+    .box1{
+       @include subbox;
+      .subbox1{ 
+
+        @include box;
+        transition: 0.5s;
+
+        &:hover{
+            background-color: #d851b6;
+            color: white;
+            
+        }
+
+        .icon2{
+
+            
+           @include subboxicon;
+
+           background-color:  #dbf3fe;
+
+            i{
+               
+                @include subboxi;
+                color:#2db6fa;
+            }
+            
+    }
+
+
+            
+    h4{
+      
+
+        @include sech4;
+     }
+
+     p{
+       
+        @include secp;
+
+     }
+
+     a{
+      
+        @include buttonbox;
+        color: #2db6fa;
+
+
+      
+    }
+        i{
+           
+            @include bboxi;  
+            color:#2db6fa;
+     }
+    }
+}
+                      
+}
+
+
+       .box2{
+             @include subbox;
+             .subbox2{ 
+
+                  @include box;
+
+                  
+        &:hover{
+            background-color: #a67ac062;
+            color: white;
+        }
+                  
+        .icon2{
+
+            
+            @include subboxicon;
+
+            background-color:  #fde3c4;
+
+             i{
+                
+                 @include subboxi;
+                 color:  #f68c09;
+             }
+
+
+
+                     }
+
+
+                     h4{
+                       
+        
+                        @include sech4;
+                     }
+        
+                     p{
+                       
+                        @include secp;
+        
+                     }
+        
+                     a{
+                        @include buttonbox;
+                       color: #f68c09;;
+                        i{
+                           
+                            @include bboxi;  
+                            color: #f68c09;
+                     }
+                    }
+            }
+        }
+    .box3{
+          @include subbox;
+        .subbox3{ 
+
+      @include box;
+      
+      &:hover{
+        background-color: #cf8fcc10;
+        color: white;
+      }
+      .icon2{
+
+            
+        @include subboxicon;
+
+        background-color:   #cffddf;
+
+         i{
+            
+             @include subboxi;
+             color: #08da4e;
+         }
+
+
+
+                 }
+
+                 h4{
+                   
+    
+                    @include sech4;
+                 }
+    
+                 p{
+                   
+                    @include secp;
+    
+                 }
+    
+                 a{
+                    @include buttonbox;
+                    color: #250110;
+                    i{
+                       
+                        @include bboxi;  
+                        color:   #250110;
+                 }
+                }
+
+         }
+    }
+
+

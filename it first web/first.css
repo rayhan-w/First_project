@@ -1,0 +1,1941 @@
+.navbar .logo .box1 {
+  height: 4px;
+  width: 20px;
+  background-color: blue;
+  position: relative;
+  top: 30px;
+  left: 10px;
+  border-radius: 2px;
+}
+.navbar .logo .box2 {
+  height: 4px;
+  width: 15px;
+  background-color: blue;
+  position: relative;
+  top: 35px;
+  left: 10px;
+  border-radius: 2px;
+}
+.navbar .logo .box3 {
+  height: 4px;
+  width: 10px;
+  background-color: blue;
+  position: relative;
+  top: 40px;
+  left: 10px;
+  border-radius: 2px;
+}
+.navbar .logo h3 {
+  font-size: 35px;
+  position: relative;
+  bottom: 25px;
+  left: 40px;
+  color: blue;
+}
+.navbar ul {
+  float: right;
+}
+.navbar ul li {
+  list-style: none;
+  float: left;
+  font-size: 20px;
+  padding: 20px;
+  position: relative;
+  bottom: 125px;
+  right: 50px;
+  color: aqua;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: aqua;
+}
+.navbar ul li a:hover {
+  color: blue;
+}
+.navbar button {
+  height: 50px;
+  width: 130px;
+  background-color: blue;
+  border-radius: 10px;
+  position: relative;
+  bottom: 115px;
+  right: 15px;
+  font-size: 20px;
+  color: white;
+  border: none;
+}
+.navbar button:hover {
+  background-color: #4154f1;
+  color: #fff;
+}
+
+.herosection {
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  position: relative;
+  bottom: 10px;
+  justify-content: space-between;
+  background: url(https://bootstrapmade.com/demo/templates/FlexStart/assets/img/hero-bg.png) top center no-repeat;
+  background-size: cover;
+}
+.herosection .heroleft h2 {
+  font-size: 50px;
+  color: rgb(146, 15, 158);
+  position: relative;
+  left: 30px;
+}
+.herosection .heroleft h3 {
+  font-size: 30px;
+  color: rgb(93, 83, 94);
+  position: relative;
+  bottom: 65px;
+  left: 30px;
+}
+.herosection .heroleft button {
+  height: 50px;
+  width: 180px;
+  background-color: blue;
+  position: relative;
+  left: 30px;
+  bottom: 70px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: white;
+}
+.herosection .heroleft button:hover {
+  color: lightblue;
+}
+.herosection .heroright {
+  position: relative;
+  right: 20px;
+}
+
+.secstion1 {
+  height: 500px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+}
+.secstion1 .secstion1left {
+  height: 400px;
+  width: 50%;
+}
+.secstion1 .secstion1left .secbox {
+  height: 400px;
+  width: 90%;
+  background-color: #f6f9ff;
+  position: relative;
+  left: 65px;
+}
+.secstion1 .secstion1left .secbox h5 {
+  font-size: 15px;
+  color: blue;
+  position: relative;
+  left: 30px;
+  top: 25px;
+}
+.secstion1 .secstion1left .secbox h2 {
+  color: blue;
+  position: relative;
+  left: 30px;
+  bottom: 15px;
+}
+.secstion1 .secstion1left .secbox p {
+  font-size: 20px;
+  position: relative;
+  left: 30px;
+  bottom: 50px;
+  color: rgb(93, 83, 94);
+}
+.secstion1 .secstion1left .secbox button {
+  height: 50px;
+  width: 180px;
+  background-color: blue;
+  position: relative;
+  left: 30px;
+  bottom: 40px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: white;
+}
+.secstion1 .secstion1left .secbox button:hover {
+  color: lightblue;
+}
+.secstion1 .secstion1right {
+  height: 500px;
+  width: 50%;
+}
+.secstion1 .secstion1right img {
+  height: 450px;
+  width: 90%;
+  position: relative;
+  right: 10px;
+}
+
+.secstion2 {
+  height: 60px;
+  width: 100%;
+  background-color: white;
+}
+.secstion2 h5 {
+  font-size: 15px;
+  color: blue;
+  text-align: center;
+}
+.secstion2 h2 {
+  font-size: 40px;
+  color: blue;
+  text-align: center;
+  position: relative;
+  bottom: 75px;
+}
+
+.secstion3 {
+  height: 500px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  margin: 20px;
+  justify-content: space-between;
+}
+.secstion3 .box1 {
+  height: 460px;
+  width: 350px;
+  background-color: #fff;
+  border: 1px solid rgba(248, 238, 238, 0.925);
+  position: relative;
+  left: 80px;
+}
+.secstion3 .box1 img {
+  height: 200px;
+  max-width: 320px;
+  padding-top: 50px;
+  padding-left: 40px;
+  transition: 0.5s;
+}
+.secstion3 .box1 img:hover {
+  transform: scale(1.1);
+}
+.secstion3 .box1 h3 {
+  color: blue;
+  font-size: 25px;
+  text-align: center;
+}
+.secstion3 .box1 p {
+  font-size: 20px;
+  text-align: center;
+}
+.secstion3 .box2 {
+  height: 460px;
+  width: 350px;
+  background-color: #fff;
+  border: 1px solid rgba(248, 238, 238, 0.925);
+}
+.secstion3 .box2 img {
+  height: 200px;
+  max-width: 320px;
+  padding-top: 50px;
+  padding-left: 40px;
+  transition: 0.5s;
+}
+.secstion3 .box2 img:hover {
+  transform: scale(1.1);
+}
+.secstion3 .box2 h3 {
+  color: blue;
+  font-size: 25px;
+  text-align: center;
+}
+.secstion3 .box2 p {
+  font-size: 20px;
+  text-align: center;
+}
+.secstion3 .box3 {
+  height: 460px;
+  width: 350px;
+  background-color: #fff;
+  border: 1px solid rgba(248, 238, 238, 0.925);
+  position: relative;
+  right: 80px;
+}
+.secstion3 .box3 img {
+  height: 200px;
+  max-width: 320px;
+  padding-top: 50px;
+  padding-left: 40px;
+  transition: 0.5s;
+}
+.secstion3 .box3 img:hover {
+  transform: scale(1.1);
+}
+.secstion3 .box3 h3 {
+  color: blue;
+  font-size: 25px;
+  text-align: center;
+}
+.secstion3 .box3 p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.secstion4 {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px;
+  position: relative;
+  left: 20px;
+  bottom: 50px;
+}
+.secstion4 .box1 {
+  height: 120px;
+  width: 250px;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid rgba(248, 238, 238, 0.925);
+}
+.secstion4 .box1 i {
+  font-size: 40px;
+  position: relative;
+  top: 37%;
+  left: 35px;
+  color: blue;
+}
+.secstion4 .box1 h3 {
+  color: blue;
+  position: relative;
+  font-size: 35px;
+  text-align: center;
+  bottom: 50px;
+}
+.secstion4 .box1 p {
+  color: rgb(93, 93, 95);
+  font-size: 15px;
+  text-align: center;
+  position: relative;
+  bottom: 115px;
+  left: 10px;
+}
+.secstion4 .box2 {
+  height: 120px;
+  width: 250px;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid rgba(248, 238, 238, 0.925);
+}
+.secstion4 .box2 i {
+  font-size: 40px;
+  position: relative;
+  top: 37%;
+  left: 35px;
+  color: #ee6c2e;
+}
+.secstion4 .box2 h3 {
+  color: blue;
+  position: relative;
+  font-size: 35px;
+  text-align: center;
+  bottom: 50px;
+}
+.secstion4 .box2 p {
+  color: rgb(93, 93, 95);
+  font-size: 15px;
+  text-align: center;
+  position: relative;
+  bottom: 115px;
+  left: 10px;
+}
+.secstion4 .box3 {
+  height: 120px;
+  width: 250px;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid rgba(248, 238, 238, 0.925);
+}
+.secstion4 .box3 i {
+  color: #15be56;
+  font-size: 40px;
+  position: relative;
+  top: 37%;
+  left: 35px;
+}
+.secstion4 .box3 h3 {
+  color: blue;
+  position: relative;
+  font-size: 35px;
+  text-align: center;
+  bottom: 50px;
+}
+.secstion4 .box3 p {
+  color: rgb(93, 93, 95);
+  font-size: 15px;
+  text-align: center;
+  position: relative;
+  bottom: 115px;
+  left: 10px;
+}
+.secstion4 .box4 {
+  height: 120px;
+  width: 250px;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid rgba(248, 238, 238, 0.925);
+}
+.secstion4 .box4 i {
+  font-size: 40px;
+  position: relative;
+  top: 37%;
+  left: 35px;
+  color: #bb0852;
+}
+.secstion4 .box4 h3 {
+  color: blue;
+  position: relative;
+  font-size: 35px;
+  text-align: center;
+  bottom: 50px;
+}
+.secstion4 .box4 p {
+  color: rgb(93, 93, 95);
+  font-size: 15px;
+  text-align: center;
+  position: relative;
+  bottom: 115px;
+  left: 10px;
+}
+
+.sectstion5 {
+  height: 60px;
+  width: 100%;
+  background-color: white;
+  position: relative;
+  bottom: 40px;
+}
+.sectstion5 h5 {
+  font-size: 15px;
+  color: blue;
+  text-align: center;
+}
+.sectstion5 h2 {
+  font-size: 40px;
+  color: blue;
+  text-align: center;
+  position: relative;
+  bottom: 75px;
+}
+
+.secstion6 {
+  height: 650px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  position: relative;
+  left: 80px;
+}
+.secstion6 .secleft {
+  height: 520px;
+  width: 50%;
+}
+.secstion6 .secleft img {
+  height: 328px;
+  width: 90%;
+  position: relative;
+  top: 50px;
+  right: 25px;
+}
+.secstion6 .secright {
+  height: 520px;
+  width: 50%;
+  position: relative;
+  left: 10px;
+}
+.secstion6 .secright .box1 {
+  height: 80px;
+  width: 240px;
+  background-color: white;
+  border: 1px solid rgba(248, 238, 238, 0.925);
+  position: relative;
+  right: 50px;
+  top: 20px;
+}
+.secstion6 .secright .box1 .icon {
+  height: 35px;
+  width: 35px;
+  background-color: #ecf3ff;
+  position: relative;
+  top: 30px;
+  left: 10px;
+}
+.secstion6 .secright .box1 .icon:hover {
+  background-color: blue;
+  color: white;
+}
+.secstion6 .secright .box1 .icon i {
+  font-size: 25px;
+  position: relative;
+  left: 5px;
+  top: 5px;
+}
+.secstion6 .secright .box1 h4 {
+  text-align: center;
+  font-size: 18px;
+  color: blue;
+  position: relative;
+  bottom: 20px;
+  left: 5px;
+}
+.secstion6 .secright .box2 {
+  height: 80px;
+  width: 240px;
+  background-color: white;
+  border: 1px solid rgba(248, 238, 238, 0.925);
+  position: relative;
+  left: 240px;
+  bottom: 60px;
+}
+.secstion6 .secright .box2 .icon {
+  height: 35px;
+  width: 35px;
+  background-color: #ecf3ff;
+  position: relative;
+  top: 30px;
+  left: 10px;
+}
+.secstion6 .secright .box2 .icon:hover {
+  background-color: blue;
+  color: white;
+}
+.secstion6 .secright .box2 .icon i {
+  font-size: 25px;
+  position: relative;
+  left: 5px;
+  top: 5px;
+}
+.secstion6 .secright .box2 h4 {
+  text-align: center;
+  font-size: 18px;
+  color: blue;
+  position: relative;
+  bottom: 20px;
+  left: 5px;
+}
+.secstion6 .secright .box3 {
+  height: 80px;
+  width: 240px;
+  background-color: white;
+  border: 1px solid rgba(248, 238, 238, 0.925);
+  position: relative;
+  bottom: 30px;
+  right: 50px;
+}
+.secstion6 .secright .box3 .icon {
+  height: 35px;
+  width: 35px;
+  background-color: #ecf3ff;
+  position: relative;
+  top: 30px;
+  left: 10px;
+}
+.secstion6 .secright .box3 .icon:hover {
+  background-color: blue;
+  color: white;
+}
+.secstion6 .secright .box3 .icon i {
+  font-size: 25px;
+  position: relative;
+  left: 5px;
+  top: 5px;
+}
+.secstion6 .secright .box3 h4 {
+  text-align: center;
+  font-size: 18px;
+  color: blue;
+  position: relative;
+  bottom: 20px;
+  left: 5px;
+}
+.secstion6 .secright .box4 {
+  height: 80px;
+  width: 240px;
+  background-color: white;
+  border: 1px solid rgba(248, 238, 238, 0.925);
+  position: relative;
+  bottom: 110px;
+  left: 240px;
+}
+.secstion6 .secright .box4 .icon {
+  height: 35px;
+  width: 35px;
+  background-color: #ecf3ff;
+  position: relative;
+  top: 30px;
+  left: 10px;
+}
+.secstion6 .secright .box4 .icon:hover {
+  background-color: blue;
+  color: white;
+}
+.secstion6 .secright .box4 .icon i {
+  font-size: 25px;
+  position: relative;
+  left: 5px;
+  top: 5px;
+}
+.secstion6 .secright .box4 h4 {
+  text-align: center;
+  font-size: 18px;
+  color: blue;
+  position: relative;
+  bottom: 20px;
+  left: 5px;
+}
+.secstion6 .secright .box5 {
+  height: 80px;
+  width: 240px;
+  background-color: white;
+  border: 1px solid rgba(248, 238, 238, 0.925);
+  position: relative;
+  bottom: 60px;
+  left: 240px;
+}
+.secstion6 .secright .box5 .icon {
+  height: 35px;
+  width: 35px;
+  background-color: #ecf3ff;
+  position: relative;
+  top: 30px;
+  left: 10px;
+}
+.secstion6 .secright .box5 .icon:hover {
+  background-color: blue;
+  color: white;
+}
+.secstion6 .secright .box5 .icon i {
+  font-size: 25px;
+  position: relative;
+  left: 5px;
+  top: 5px;
+}
+.secstion6 .secright .box5 h4 {
+  text-align: center;
+  font-size: 18px;
+  color: blue;
+  position: relative;
+  bottom: 20px;
+  left: 5px;
+}
+.secstion6 .secright .box6 {
+  height: 80px;
+  width: 240px;
+  background-color: white;
+  border: 1px solid rgba(248, 238, 238, 0.925);
+  position: relative;
+  bottom: 140px;
+  right: 50px;
+}
+.secstion6 .secright .box6 .icon {
+  height: 35px;
+  width: 35px;
+  background-color: #ecf3ff;
+  position: relative;
+  top: 30px;
+  left: 10px;
+}
+.secstion6 .secright .box6 .icon:hover {
+  background-color: blue;
+  color: white;
+}
+.secstion6 .secright .box6 .icon i {
+  font-size: 25px;
+  position: relative;
+  left: 5px;
+  top: 5px;
+}
+.secstion6 .secright .box6 h4 {
+  text-align: center;
+  font-size: 18px;
+  color: blue;
+  position: relative;
+  bottom: 20px;
+  left: 5px;
+}
+
+.secstion7 {
+  height: 60px;
+  width: 100%;
+  background-color: white;
+  position: relative;
+  bottom: 50px;
+}
+.secstion7 h5 {
+  font-size: 15px;
+  color: blue;
+  text-align: center;
+}
+.secstion7 h2 {
+  font-size: 40px;
+  color: blue;
+  text-align: center;
+  position: relative;
+  bottom: 75px;
+}
+
+.secstion8 {
+  justify-content: space-between;
+  height: 520px;
+  width: 90%;
+  background-color: white;
+  position: relative;
+  display: flex;
+  left: 70px;
+}
+.secstion8 .box1 {
+  height: 470px;
+  width: 350px;
+  background-color: red;
+  border: 1px solid rgba(248, 238, 238, 0.925);
+}
+.secstion8 .box1 .subbox1 {
+  height: 460px;
+  width: 350px;
+  background-color: #fff;
+  border: 1px solid rgba(248, 238, 238, 0.925);
+  transition: 0.5s;
+}
+.secstion8 .box1 .subbox1:hover {
+  background-color: #d851b6;
+  color: white;
+}
+.secstion8 .box1 .subbox1 .icon2 {
+  height: 80px;
+  width: 80px;
+  border-radius: 5px;
+  position: relative;
+  top: 50px;
+  left: 130px;
+  background-color: #dbf3fe;
+}
+.secstion8 .box1 .subbox1 .icon2 i {
+  font-size: 38px;
+  color: #4154f1;
+  position: relative;
+  left: 5px;
+  top: 5px;
+  color: #2db6fa;
+}
+.secstion8 .box1 .subbox1 h4 {
+  text-align: center;
+  font-size: 30px;
+  color: #444444;
+  position: relative;
+  top: 30px;
+}
+.secstion8 .box1 .subbox1 p {
+  text-align: center;
+  font-size: 20px;
+  color: #444444;
+  position: relative;
+  top: 10px;
+}
+.secstion8 .box1 .subbox1 a {
+  text-decoration: none;
+  position: relative;
+  top: 20px;
+  left: 130px;
+  font-size: 20px;
+  border: none;
+  color: #2db6fa;
+}
+.secstion8 .box1 .subbox1 i {
+  font-size: 20px;
+  position: relative;
+  left: 5px;
+  top: 4px;
+  color: #2db6fa;
+}
+
+.box2 {
+  height: 470px;
+  width: 350px;
+  background-color: red;
+  border: 1px solid rgba(248, 238, 238, 0.925);
+}
+.box2 .subbox2 {
+  height: 460px;
+  width: 350px;
+  background-color: #fff;
+  border: 1px solid rgba(248, 238, 238, 0.925);
+}
+.box2 .subbox2:hover {
+  background-color: rgba(166, 122, 192, 0.3843137255);
+  color: white;
+}
+.box2 .subbox2 .icon2 {
+  height: 80px;
+  width: 80px;
+  border-radius: 5px;
+  position: relative;
+  top: 50px;
+  left: 130px;
+  background-color: #fde3c4;
+}
+.box2 .subbox2 .icon2 i {
+  font-size: 38px;
+  color: #4154f1;
+  position: relative;
+  left: 5px;
+  top: 5px;
+  color: #f68c09;
+}
+.box2 .subbox2 h4 {
+  text-align: center;
+  font-size: 30px;
+  color: #444444;
+  position: relative;
+  top: 30px;
+}
+.box2 .subbox2 p {
+  text-align: center;
+  font-size: 20px;
+  color: #444444;
+  position: relative;
+  top: 10px;
+}
+.box2 .subbox2 a {
+  text-decoration: none;
+  position: relative;
+  top: 20px;
+  left: 130px;
+  font-size: 20px;
+  border: none;
+  color: #f68c09;
+}
+.box2 .subbox2 a i {
+  font-size: 20px;
+  position: relative;
+  left: 5px;
+  top: 4px;
+  color: #f68c09;
+}
+
+.box3 {
+  height: 470px;
+  width: 350px;
+  background-color: red;
+  border: 1px solid rgba(248, 238, 238, 0.925);
+}
+.box3 .subbox3 {
+  height: 460px;
+  width: 350px;
+  background-color: #fff;
+  border: 1px solid rgba(248, 238, 238, 0.925);
+}
+.box3 .subbox3:hover {
+  background-color: rgba(207, 143, 204, 0.062745098);
+  color: white;
+}
+.box3 .subbox3 .icon2 {
+  height: 80px;
+  width: 80px;
+  border-radius: 5px;
+  position: relative;
+  top: 50px;
+  left: 130px;
+  background-color: #cffddf;
+}
+.box3 .subbox3 .icon2 i {
+  font-size: 38px;
+  color: #4154f1;
+  position: relative;
+  left: 5px;
+  top: 5px;
+  color: #08da4e;
+}
+.box3 .subbox3 h4 {
+  text-align: center;
+  font-size: 30px;
+  color: #444444;
+  position: relative;
+  top: 30px;
+}
+.box3 .subbox3 p {
+  text-align: center;
+  font-size: 20px;
+  color: #444444;
+  position: relative;
+  top: 10px;
+}
+.box3 .subbox3 a {
+  text-decoration: none;
+  position: relative;
+  top: 20px;
+  left: 130px;
+  font-size: 20px;
+  border: none;
+  color: #250110;
+}
+.box3 .subbox3 a i {
+  font-size: 20px;
+  position: relative;
+  left: 5px;
+  top: 4px;
+  color: #250110;
+}
+
+.secstion9 {
+  height: 520px;
+  width: 90%;
+  background-color: white;
+  position: relative;
+  display: flex;
+  left: 70px;
+  justify-content: space-between;
+}
+.secstion9 .box4 {
+  height: 470px;
+  width: 350px;
+  background-color: red;
+  border: 1px solid rgba(248, 238, 238, 0.925);
+}
+.secstion9 .box4 .subbox4 {
+  height: 460px;
+  width: 350px;
+  background-color: #fff;
+  border: 1px solid rgba(248, 238, 238, 0.925);
+}
+.secstion9 .box4 .subbox4:hover {
+  background-color: #e94a4a;
+  color: white;
+}
+.secstion9 .box4 .subbox4 .icon2 {
+  height: 80px;
+  width: 80px;
+  border-radius: 5px;
+  position: relative;
+  top: 50px;
+  left: 130px;
+  background-color: #fef7f8;
+}
+.secstion9 .box4 .subbox4 .icon2 i {
+  font-size: 38px;
+  color: #4154f1;
+  position: relative;
+  left: 5px;
+  top: 5px;
+  color: #e9222c;
+}
+.secstion9 .box4 .subbox4 h4 {
+  text-align: center;
+  font-size: 30px;
+  color: #444444;
+  position: relative;
+  top: 30px;
+}
+.secstion9 .box4 .subbox4 p {
+  text-align: center;
+  font-size: 20px;
+  color: #444444;
+  position: relative;
+  top: 10px;
+}
+.secstion9 .box4 .subbox4 a {
+  text-decoration: none;
+  position: relative;
+  top: 20px;
+  left: 130px;
+  font-size: 20px;
+  border: none;
+  color: green;
+}
+.secstion9 .box4 .subbox4 a i {
+  font-size: 20px;
+  position: relative;
+  left: 5px;
+  top: 4px;
+  color: green;
+}
+.secstion9 .box5 {
+  height: 470px;
+  width: 350px;
+  background-color: red;
+  border: 1px solid rgba(248, 238, 238, 0.925);
+}
+.secstion9 .box5 .subbox5 {
+  height: 460px;
+  width: 350px;
+  background-color: #fff;
+  border: 1px solid rgba(248, 238, 238, 0.925);
+}
+.secstion9 .box5 .subbox5:hover {
+  background-color: #2dfa59;
+  color: white;
+}
+.secstion9 .box5 .subbox5 .icon2 {
+  height: 80px;
+  width: 80px;
+  border-radius: 5px;
+  position: relative;
+  top: 50px;
+  left: 130px;
+  background-color: #f8e4fd;
+}
+.secstion9 .box5 .subbox5 .icon2 i {
+  font-size: 38px;
+  color: #4154f1;
+  position: relative;
+  left: 5px;
+  top: 5px;
+  color: #b50edf;
+}
+.secstion9 .box5 .subbox5 h4 {
+  text-align: center;
+  font-size: 30px;
+  color: #444444;
+  position: relative;
+  top: 30px;
+}
+.secstion9 .box5 .subbox5 p {
+  text-align: center;
+  font-size: 20px;
+  color: #444444;
+  position: relative;
+  top: 10px;
+}
+.secstion9 .box5 .subbox5 a {
+  text-decoration: none;
+  position: relative;
+  top: 20px;
+  left: 130px;
+  font-size: 20px;
+  border: none;
+  color: blue;
+}
+.secstion9 .box5 .subbox5 a i {
+  font-size: 20px;
+  position: relative;
+  left: 5px;
+  top: 4px;
+  color: blue;
+}
+.secstion9 .box6 {
+  height: 470px;
+  width: 350px;
+  background-color: red;
+  border: 1px solid rgba(248, 238, 238, 0.925);
+}
+.secstion9 .box6 .subbox6 {
+  height: 460px;
+  width: 350px;
+  background-color: #fff;
+  border: 1px solid rgba(248, 238, 238, 0.925);
+}
+.secstion9 .box6 .subbox6:hover {
+  background-color: #a196e0;
+  color: white;
+}
+.secstion9 .box6 .subbox6 .icon2 {
+  height: 80px;
+  width: 80px;
+  border-radius: 5px;
+  position: relative;
+  top: 50px;
+  left: 130px;
+  background-color: #feecf7;
+}
+.secstion9 .box6 .subbox6 .icon2 i {
+  font-size: 38px;
+  color: #4154f1;
+  position: relative;
+  left: 5px;
+  top: 5px;
+  color: #f51f9c;
+}
+.secstion9 .box6 .subbox6 h4 {
+  text-align: center;
+  font-size: 30px;
+  color: #444444;
+  position: relative;
+  top: 30px;
+}
+.secstion9 .box6 .subbox6 p {
+  text-align: center;
+  font-size: 20px;
+  color: #444444;
+  position: relative;
+  top: 10px;
+}
+.secstion9 .box6 .subbox6 a {
+  text-decoration: none;
+  position: relative;
+  top: 20px;
+  left: 130px;
+  font-size: 20px;
+  border: none;
+  color: rgba(245, 96, 250, 0.966);
+}
+.secstion9 .box6 .subbox6 a i {
+  font-size: 20px;
+  position: relative;
+  left: 5px;
+  top: 4px;
+  color: rgba(245, 96, 250, 0.966);
+}
+
+.secstion91 {
+  height: 60px;
+  width: 100%;
+  background-color: white;
+  position: relative;
+  bottom: 50px;
+}
+.secstion91 h5 {
+  font-size: 15px;
+  color: blue;
+  text-align: center;
+}
+.secstion91 h2 {
+  font-size: 40px;
+  color: blue;
+  text-align: center;
+  position: relative;
+  bottom: 75px;
+}
+
+.secstion10 {
+  height: 520px;
+  width: 90%;
+  background-color: white;
+  position: relative;
+  display: flex;
+  left: 70px;
+  justify-content: space-between;
+}
+.secstion10 .box1 {
+  height: 620px;
+  width: 260px;
+  background-color: white;
+  border: 1px solid rgba(248, 238, 238, 0.925);
+  transition: all 0.4s;
+}
+.secstion10 .box1 h4 {
+  text-align: center;
+  font-size: 20px;
+  position: relative;
+  top: 20px;
+  color: #07d5c0;
+}
+.secstion10 .box1 .price {
+  font-size: 40px;
+  position: relative;
+  left: 90px;
+  color: #444444;
+}
+.secstion10 .box1 .price sup {
+  position: relative;
+  left: 10px;
+  bottom: 5px;
+  font-size: 20px;
+  color: #444444;
+}
+.secstion10 .box1 .price p {
+  font-size: 20px;
+  position: relative;
+  left: 60px;
+  bottom: 50px;
+  color: #bababa;
+}
+.secstion10 .box1 img {
+  height: 100px;
+  width: 120px;
+  position: relative;
+  bottom: 60px;
+  left: 60px;
+}
+.secstion10 .box1 h6 {
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  bottom: 80px;
+  color: #444444;
+}
+.secstion10 .box1 p del {
+  text-align: center;
+  position: relative;
+  left: 60px;
+  bottom: 140px;
+  font-size: 20px;
+  color: #ccc;
+}
+.secstion10 .box1 del {
+  text-align: center;
+  position: relative;
+  left: 50px;
+  bottom: 140px;
+  font-size: 20px;
+  color: #ccc;
+}
+.secstion10 .box1 button {
+  height: 50px;
+  width: 160px;
+  background-color: white;
+  position: relative;
+  left: 40px;
+  bottom: 100px;
+  border-radius: 30px;
+  border: 1px solid #4154f1;
+  font-size: 20px;
+  color: #4154f1;
+}
+.secstion10 .box1 button:hover {
+  background-color: blue;
+  color: white;
+}
+.secstion10 .box1:hover {
+  transform: scale(1.1);
+}
+.secstion10 .box2 {
+  height: 620px;
+  width: 260px;
+  background-color: white;
+  border: 1px solid rgba(248, 238, 238, 0.925);
+  transition: all 0.4s;
+}
+.secstion10 .box2 h4 {
+  text-align: center;
+  font-size: 20px;
+  position: relative;
+  top: 20px;
+  color: #65c600;
+}
+.secstion10 .box2 .price {
+  font-size: 40px;
+  position: relative;
+  left: 90px;
+  color: #444444;
+}
+.secstion10 .box2 .price sup {
+  position: relative;
+  left: 10px;
+  bottom: 5px;
+  font-size: 20px;
+  color: #444444;
+}
+.secstion10 .box2 .price p {
+  font-size: 20px;
+  position: relative;
+  left: 60px;
+  bottom: 50px;
+  color: #bababa;
+}
+.secstion10 .box2 img {
+  height: 100px;
+  width: 120px;
+  position: relative;
+  bottom: 60px;
+  left: 60px;
+}
+.secstion10 .box2 h6 {
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  bottom: 80px;
+  color: #444444;
+}
+.secstion10 .box2 del {
+  text-align: center;
+  position: relative;
+  left: 50px;
+  bottom: 140px;
+  font-size: 20px;
+  color: #ccc;
+}
+.secstion10 .box2 button {
+  height: 50px;
+  width: 160px;
+  background-color: white;
+  position: relative;
+  left: 40px;
+  bottom: 100px;
+  border-radius: 30px;
+  border: 1px solid #4154f1;
+  font-size: 20px;
+  color: #4154f1;
+}
+.secstion10 .box2 button:hover {
+  background-color: blue;
+  color: white;
+}
+.secstion10 .box2:hover {
+  transform: scale(1.1);
+}
+.secstion10 .box2 .boxshape {
+  border-bottom: 20px solid blue;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  height: 0;
+  width: 70px;
+  transform: rotate(45deg);
+  position: relative;
+  bottom: 667px;
+  left: 179.7px;
+}
+.secstion10 .box2 .boxshape p {
+  text-align: center;
+  color: white;
+}
+.secstion10 .box3 {
+  height: 620px;
+  width: 260px;
+  background-color: white;
+  border: 1px solid rgba(248, 238, 238, 0.925);
+  transition: all 0.4s;
+}
+.secstion10 .box3 h4 {
+  text-align: center;
+  font-size: 20px;
+  position: relative;
+  top: 20px;
+  color: #ff901c;
+}
+.secstion10 .box3 .price {
+  font-size: 40px;
+  position: relative;
+  left: 90px;
+  color: #444444;
+}
+.secstion10 .box3 .price sup {
+  position: relative;
+  left: 10px;
+  bottom: 5px;
+  font-size: 20px;
+  color: #444444;
+}
+.secstion10 .box3 .price p {
+  font-size: 20px;
+  position: relative;
+  left: 60px;
+  bottom: 50px;
+  color: #bababa;
+}
+.secstion10 .box3 img {
+  height: 100px;
+  width: 120px;
+  position: relative;
+  bottom: 60px;
+  left: 60px;
+}
+.secstion10 .box3 h6 {
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  bottom: 80px;
+  color: #444444;
+}
+.secstion10 .box3 button {
+  height: 50px;
+  width: 160px;
+  background-color: white;
+  position: relative;
+  left: 40px;
+  bottom: 100px;
+  border-radius: 30px;
+  border: 1px solid #4154f1;
+  font-size: 20px;
+  color: #4154f1;
+}
+.secstion10 .box3 button:hover {
+  background-color: blue;
+  color: white;
+}
+.secstion10 .box3:hover {
+  transform: scale(1.1);
+}
+.secstion10 .box4 {
+  height: 620px;
+  width: 260px;
+  background-color: white;
+  border: 1px solid rgba(248, 238, 238, 0.925);
+  transition: all 0.4s;
+}
+.secstion10 .box4 h4 {
+  text-align: center;
+  font-size: 20px;
+  position: relative;
+  top: 20px;
+  color: #ff0071;
+}
+.secstion10 .box4 .price {
+  font-size: 40px;
+  position: relative;
+  left: 90px;
+  color: #444444;
+}
+.secstion10 .box4 .price sup {
+  position: relative;
+  left: 10px;
+  bottom: 5px;
+  font-size: 20px;
+  color: #444444;
+}
+.secstion10 .box4 .price p {
+  font-size: 20px;
+  position: relative;
+  left: 60px;
+  bottom: 50px;
+  color: #bababa;
+}
+.secstion10 .box4 img {
+  height: 100px;
+  width: 120px;
+  position: relative;
+  bottom: 60px;
+  left: 60px;
+}
+.secstion10 .box4 h6 {
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  bottom: 80px;
+  color: #444444;
+}
+.secstion10 .box4 button {
+  height: 50px;
+  width: 160px;
+  background-color: white;
+  position: relative;
+  left: 40px;
+  bottom: 100px;
+  border-radius: 30px;
+  border: 1px solid #4154f1;
+  font-size: 20px;
+  color: #4154f1;
+}
+.secstion10 .box4 button:hover {
+  background-color: blue;
+  color: white;
+}
+.secstion10 .box4:hover {
+  transform: scale(1.1);
+}
+
+.secstion13 {
+  height: 60px;
+  width: 100%;
+  background-color: white;
+  position: relative;
+  top: 120px;
+}
+.secstion13 h5 {
+  font-size: 15px;
+  color: blue;
+  text-align: center;
+}
+.secstion13 h2 {
+  font-size: 40px;
+  color: blue;
+  text-align: center;
+  position: relative;
+  bottom: 75px;
+}
+
+.secstion14 {
+  height: 520px;
+  width: 90%;
+  background-color: white;
+  position: relative;
+  display: flex;
+  left: 70px;
+  justify-content: space-between;
+}
+.secstion14 .box1 {
+  height: 470px;
+  width: 350px;
+  background-color: white;
+  border: 1px solid rgba(248, 238, 238, 0.925);
+}
+.secstion14 .box1 i {
+  font-size: 25px;
+  position: relative;
+  left: 110px;
+  top: 35px;
+  color: yellow;
+}
+.secstion14 .box1 h3 {
+  text-align: center;
+  position: relative;
+  top: 70px;
+  color: #444444;
+}
+.secstion14 .box1 img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  position: relative;
+  top: 100px;
+  left: 120px;
+}
+.secstion14 .box1 p {
+  position: relative;
+  left: 150px;
+  top: 100px;
+}
+.secstion14 .box2 {
+  height: 470px;
+  width: 350px;
+  background-color: white;
+  border: 1px solid rgba(248, 238, 238, 0.925);
+}
+.secstion14 .box2 i {
+  font-size: 25px;
+  position: relative;
+  left: 110px;
+  top: 35px;
+  color: yellow;
+}
+.secstion14 .box2 h3 {
+  text-align: center;
+  position: relative;
+  top: 70px;
+  color: #444444;
+}
+.secstion14 .box2 img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  position: relative;
+  top: 100px;
+  left: 120px;
+}
+.secstion14 .box2 p {
+  position: relative;
+  left: 150px;
+  top: 100px;
+}
+.secstion14 .box3 {
+  height: 470px;
+  width: 350px;
+  background-color: white;
+  border: 1px solid rgba(248, 238, 238, 0.925);
+}
+.secstion14 .box3 i {
+  font-size: 25px;
+  position: relative;
+  left: 110px;
+  top: 35px;
+  color: yellow;
+}
+.secstion14 .box3 h3 {
+  text-align: center;
+  position: relative;
+  top: 70px;
+  color: #444444;
+}
+.secstion14 .box3 img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  position: relative;
+  top: 100px;
+  left: 120px;
+}
+.secstion14 .box3 p {
+  position: relative;
+  left: 150px;
+  top: 100px;
+}
+
+.secstion15 {
+  height: 60px;
+  width: 100%;
+  background-color: white;
+  position: relative;
+  top: 30px;
+}
+.secstion15 h5 {
+  font-size: 15px;
+  color: blue;
+  text-align: center;
+}
+.secstion15 h2 {
+  font-size: 40px;
+  color: blue;
+  text-align: center;
+  position: relative;
+  bottom: 75px;
+}
+
+.secstion16 {
+  height: 520px;
+  width: 90%;
+  background-color: white;
+  position: relative;
+  display: flex;
+  left: 70px;
+  justify-content: space-between;
+}
+.secstion16 .box1 {
+  height: 520px;
+  width: 260px;
+  background-color: white;
+  border: 1px solid rgba(248, 238, 238, 0.925);
+  border-radius: 5px;
+  transition: all 0.4s;
+}
+.secstion16 .box1 img {
+  height: 240px;
+  width: 260px;
+  border-radius: 5px;
+}
+.secstion16 .box1 h3 {
+  text-align: center;
+  color: #012970;
+}
+.secstion16 .box1 h4 {
+  text-align: center;
+  position: relative;
+  top: -5px;
+  color: #aaaaaa;
+}
+.secstion16 .box1 h5 {
+  text-align: center;
+  position: relative;
+  top: -30px;
+  color: #5e5e5e;
+  font-size: 16px;
+}
+.secstion16 .box1:hover {
+  transform: scale(1.1);
+}
+.secstion16 .box2 {
+  height: 520px;
+  width: 260px;
+  background-color: white;
+  border: 1px solid rgba(248, 238, 238, 0.925);
+  border-radius: 5px;
+  transition: all 0.4s;
+}
+.secstion16 .box2 img {
+  height: 240px;
+  width: 260px;
+  border-radius: 5px;
+}
+.secstion16 .box2 h3 {
+  text-align: center;
+  color: #012970;
+}
+.secstion16 .box2 h4 {
+  text-align: center;
+  position: relative;
+  top: -5px;
+  color: #aaaaaa;
+}
+.secstion16 .box2 h5 {
+  text-align: center;
+  position: relative;
+  top: -30px;
+  color: #5e5e5e;
+  font-size: 16px;
+}
+.secstion16 .box2:hover {
+  transform: scale(1.1);
+}
+.secstion16 .box3 {
+  height: 520px;
+  width: 260px;
+  background-color: white;
+  border: 1px solid rgba(248, 238, 238, 0.925);
+  border-radius: 5px;
+  transition: all 0.4s;
+}
+.secstion16 .box3 img {
+  height: 240px;
+  width: 260px;
+  border-radius: 5px;
+}
+.secstion16 .box3 h3 {
+  text-align: center;
+  color: #012970;
+}
+.secstion16 .box3 h4 {
+  text-align: center;
+  position: relative;
+  top: -5px;
+  color: #aaaaaa;
+}
+.secstion16 .box3 h5 {
+  text-align: center;
+  position: relative;
+  top: -30px;
+  color: #5e5e5e;
+  font-size: 16px;
+}
+.secstion16 .box3:hover {
+  transform: scale(1.1);
+}
+.secstion16 .box4 {
+  height: 520px;
+  width: 260px;
+  background-color: white;
+  border: 1px solid rgba(248, 238, 238, 0.925);
+  border-radius: 5px;
+  transition: all 0.4s;
+}
+.secstion16 .box4 img {
+  height: 240px;
+  width: 260px;
+  border-radius: 5px;
+}
+.secstion16 .box4 h3 {
+  text-align: center;
+  color: #012970;
+}
+.secstion16 .box4 h4 {
+  text-align: center;
+  position: relative;
+  top: -5px;
+  color: #aaaaaa;
+}
+.secstion16 .box4 h5 {
+  text-align: center;
+  position: relative;
+  top: -30px;
+  color: #5e5e5e;
+  font-size: 16px;
+}
+.secstion16 .box4:hover {
+  transform: scale(1.1);
+}
+
+.secstion17 {
+  height: 60px;
+  width: 100%;
+  background-color: white;
+  position: relative;
+  top: 60px;
+}
+.secstion17 h5 {
+  font-size: 15px;
+  color: blue;
+  text-align: center;
+}
+.secstion17 h2 {
+  font-size: 40px;
+  color: blue;
+  text-align: center;
+  position: relative;
+  bottom: 75px;
+}
+
+.secstion18 {
+  height: 520px;
+  width: 90%;
+  background-color: white;
+  position: relative;
+  display: flex;
+  left: 70px;
+  justify-content: space-between;
+  position: relative;
+  top: 80px;
+}
+.secstion18 .mainbox1 {
+  height: 520px;
+  width: 45%;
+  background-color: white;
+}
+.secstion18 .mainbox1 .subbox1 {
+  height: 150px;
+  width: 200px;
+  background-color: #fafbff;
+  position: relative;
+  top: 30px;
+  left: 20px;
+}
+.secstion18 .mainbox1 .subbox1 i {
+  font-size: 38px;
+  color: #4154f1;
+  position: relative;
+  left: 5px;
+  top: 5px;
+}
+.secstion18 .mainbox1 .subbox1 h3 {
+  color: #012970;
+  font-size: 20px;
+  position: relative;
+  left: 5px;
+}
+.secstion18 .mainbox1 .subbox1 p {
+  font-size: 14px;
+  color: #444444;
+  position: relative;
+  left: 5px;
+  top: -8px;
+}
+.secstion18 .mainbox1 .subbox2 {
+  height: 150px;
+  width: 200px;
+  background-color: #fafbff;
+  position: relative;
+  top: -120px;
+  left: 260px;
+}
+.secstion18 .mainbox1 .subbox2 i {
+  font-size: 38px;
+  color: #4154f1;
+  position: relative;
+  left: 5px;
+  top: 5px;
+}
+.secstion18 .mainbox1 .subbox2 h3 {
+  color: #012970;
+  font-size: 20px;
+  position: relative;
+  left: 5px;
+}
+.secstion18 .mainbox1 .subbox2 p {
+  font-size: 14px;
+  color: #444444;
+  position: relative;
+  left: 5px;
+  top: -8px;
+}
+.secstion18 .mainbox1 .subbox3 {
+  height: 150px;
+  width: 200px;
+  background-color: #fafbff;
+  position: relative;
+  top: -30px;
+  left: 20px;
+}
+.secstion18 .mainbox1 .subbox3 i {
+  font-size: 38px;
+  color: #4154f1;
+  position: relative;
+  left: 5px;
+  top: 5px;
+}
+.secstion18 .mainbox1 .subbox3 h3 {
+  color: #012970;
+  font-size: 20px;
+  position: relative;
+  left: 5px;
+}
+.secstion18 .mainbox1 .subbox3 p {
+  font-size: 14px;
+  color: #444444;
+  position: relative;
+  left: 5px;
+  top: -8px;
+}
+.secstion18 .mainbox1 .subbox4 {
+  height: 150px;
+  width: 200px;
+  background-color: #fafbff;
+  position: relative;
+  top: -180px;
+  left: 260px;
+}
+.secstion18 .mainbox1 .subbox4 i {
+  font-size: 38px;
+  color: #4154f1;
+  position: relative;
+  left: 5px;
+  top: 5px;
+}
+.secstion18 .mainbox1 .subbox4 h3 {
+  color: #012970;
+  font-size: 20px;
+  position: relative;
+  left: 5px;
+}
+.secstion18 .mainbox1 .subbox4 p {
+  font-size: 14px;
+  color: #444444;
+  position: relative;
+  left: 5px;
+  top: -8px;
+}
+.secstion18 .mainbox2 {
+  height: 520px;
+  width: 45%;
+  background-color: #fafbff;
+}
+.secstion18 .mainbox2 .form {
+  position: relative;
+  top: 50px;
+  left: 50px;
+  padding-left: 5px;
+  justify-content: space-between;
+}
+.secstion18 .mainbox2 .form input[type=text] {
+  height: 40px;
+  width: 200px;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  font-size: 14px;
+}
+.secstion18 .mainbox2 .form input[type=mail] {
+  height: 40px;
+  width: 200px;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  font-size: 14px;
+  position: relative;
+  left: 15px;
+}
+.secstion18 .mainbox2 .form input[type=subject] {
+  height: 40px;
+  width: 425px;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  font-size: 14px;
+  position: relative;
+  top: 20px;
+}
+.secstion18 .mainbox2 .form input[type=message] {
+  height: 150px;
+  width: 425px;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  font-size: 14px;
+  position: relative;
+  top: 60px;
+}
+.secstion18 .mainbox2 .form button {
+  height: 50px;
+  width: 150px;
+  background-color: blue;
+  border-radius: 10px;
+  position: relative;
+  top: 115px;
+  left: 120px;
+  font-size: 20px;
+  color: white;
+}
+.secstion18 .mainbox2 .form button:hover {
+  background-color: #4154f1;
+  color: #fff;
+}
+
+.secstion19 {
+  height: 150px;
+  width: 100%;
+  background-color: #f1e3e3;
+  position: relative;
+  top: 140px;
+}
+.secstion19 h3 {
+  text-align: center;
+  color: black;
+  position: relative;
+  top: 50px;
+}
+.secstion19 h3 b {
+  color: blue;
+}
+.secstion19 h3 secstion {
+  color: blue;
+}
+
+body {
+  overflow-x: hidden;
+}/*# sourceMappingURL=first.css.map */

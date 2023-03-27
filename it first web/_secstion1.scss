@@ -1,0 +1,74 @@
+.secstion1{
+    height: 500px;
+    width: 100%;
+    background-color:  white;
+    display: flex;
+
+    .secstion1left{
+
+        height: 400px;
+        width: 50%;
+    
+        .secbox{
+            height: 400px;
+            width: 90%;
+            background-color: #f6f9ff;
+            position: relative;
+            left: 65px;
+
+            h5{
+                font-size: 15px;
+                color: blue;
+                position: relative;
+                left: 30px;
+                top: 25px;
+            }
+
+            h2{
+                color: blue;
+                position: relative;
+                left: 30px;
+                bottom: 15px;
+            }
+
+            p{
+                font-size: 20px;
+                position: relative;
+                left: 30px;
+                bottom: 50px;
+                color: rgb(93, 83, 94);;
+            }
+
+            button{
+                height: 50px;
+                width: 180px;
+                background-color: blue;
+                position: relative;
+                left: 30px;
+                bottom: 40px;
+                border-radius: 5px;
+                font-size: 20px;
+                color: white;
+
+                &:hover{
+                    color: lightblue;
+                }
+            }
+               
+
+
+        }
+    }
+
+    .secstion1right{
+       height: 500px;
+       width: 50%;
+        img{
+            height: 450px;
+            width: 90%;
+            position: relative;
+            right: 10px;
+        }
+
+    }
+ }

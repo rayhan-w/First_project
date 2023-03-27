@@ -1,0 +1,473 @@
+
+@mixin headingsec{
+    height: map-get($tosec, height );
+    width: map-get($tosec, width );
+    background-color: map-get($tosec, bcol );
+}
+
+@mixin headingh5{
+    font-size: map-get($toph5, fsi );
+    color: map-get($toph5, col );
+    text-align: map-get($toph5, tal );
+}
+
+
+@mixin box {
+    height: map-get($box,height );
+    width: map-get($box,width );
+    border-radius: map-get($box,radius);
+    background-color: map-get($box,bxc );
+    border: map-get($box,br);
+
+}
+
+
+
+@mixin img {
+    height: map-get($img,height );
+   max-width: map-get($img,max-width );
+   padding-top: map-get($img,pt);
+    padding-left: map-get($img,pl );
+    transition: map-get($img,tr);
+
+}
+
+
+
+@mixin h3 {
+    color: map-get($h3,col );
+   font-size: map-get($h3,fs);
+   text-align: map-get($h3,ta);
+    
+}
+
+
+
+
+@mixin p{
+    color: map-get($p,co );
+   font-size: map-get($p,fsi);
+   text-align: map-get($p,tal);
+   position: map-get($p,po);
+   bottom: map-get($p, b );
+    
+}
+
+
+
+@mixin secbox4 {
+    height: map-get($secbox4,height );
+    width: map-get($secbox4,width );
+    border-radius: map-get($secbox4,radius);
+    background-color: map-get($secbox4,bxc );
+    border: map-get($secbox4,br);
+
+}
+
+@mixin icon {
+    font-size: map-get($i,fsiz );
+    position: map-get($i,posi );
+    top: map-get($i,to);
+    left: map-get($i,lef );
+   
+
+}
+
+@mixin box4h3 {
+    position: map-get($box4h3,pos);
+   font-size: map-get($box4h3,fsi);
+   text-align: map-get($box4h3,ta);
+   bottom: map-get($box4h3, bot );
+    
+}
+
+
+@mixin box4p{
+    color: map-get($box4p,co );
+   font-size: map-get($box4p,fsi);
+   text-align: map-get($box4p,tal);
+   position: map-get($box4p,po);
+   bottom: map-get($box4p, b );
+   left: map-get($box4p, lf );
+    
+}
+
+
+
+
+
+
+@mixin i {
+    font-size: map-get($secbox4,fs );
+    position: map-get($secbox4,pos );
+    top: map-get($secbox4,tp);
+    left: map-get($secbox4,lf );
+   
+
+}
+
+
+@mixin box {
+    height: map-get($box,height );
+    width: map-get($box,width );
+    border-radius: map-get($box,radius);
+    background-color: map-get($box,bxc );
+    border: map-get($box,br);
+
+}
+
+@mixin subbox {
+    height: map-get($subbox,height );
+    width: map-get($subbox,width );
+    border-radius: map-get($subbox,radius);
+    background-color: map-get($subbox,bxc );
+    border: map-get($subbox,br);
+
+}
+
+
+
+
+
+
+
+
+
+@mixin subboxicon {
+    height: map-get($icon,height );
+    width: map-get($icon,width );
+    border-radius: map-get($icon,bord);
+   position: map-get($icon, posit );
+   top: map-get($icon, topp );
+   left: map-get($icon, lft );
+   
+}
+
+@mixin subboxi {
+    font-size: map-get($i2,fonts );
+    position: map-get($i2,pos );
+    left: map-get($i2,lef);
+   top: map-get($i2, to );
+  
+   
+}
+
+
+
+
+@mixin secmax {
+    height: map-get($secstion,height );
+    width: map-get($secstion,width );
+    background-color: map-get($secstion,backcol);
+   position: map-get($secstion, pos );
+  
+   display:map-get($secstion, dis); ;
+   left: map-get($secstion, lef );
+   
+}
+
+
+
+
+
+@mixin sech4 {
+    text-align: map-get($h4,tal );
+    font-size: map-get($h4,fsi );
+    color: map-get($h4,col);
+   position: map-get($h4, pos );
+  
+   top:map-get($h4, to); ;
+  
+   
+}
+
+
+@mixin secp {
+    text-align: map-get($p,tal );
+    font-size: map-get($p,fsi );
+    color: map-get($p,col);
+   position: map-get($p, pos );
+  
+   top:map-get($p, to); ;
+  
+   
+}
+
+
+
+
+@mixin buttonbox {
+   text-decoration: map-get($but, td );
+   position: map-get($but,pos);
+    top: map-get($but,to);
+    left: map-get($but,lef);  
+    font-size: map-get($but,fsi);  ;
+   border: map-get($but, br );
+  
+   
+}
+
+
+
+
+@mixin bboxi {
+    font-size: map-get($bboxi2,fsi );
+    position: map-get($bboxi2,pos );
+    left: map-get($bboxi2,lef);
+   top: map-get($bboxi2, to );
+  
+   
+}
+
+@mixin subboxy {
+    height: map-get($pricebox,height );
+    width: map-get($pricebox,width );
+    border-radius: map-get($pricebox,radius);
+    background-color: map-get($pricebox,bxc );
+    border: map-get($pricebox,br);
+
+}
+
+
+
+
+@mixin pricehover {
+   text-align: map-get(  $priceh4, tal);
+   font-size: map-get(  $priceh4, fsi);
+   
+   position: map-get(  $priceh4, pos);
+    top: map-get(  $priceh4, to);
+  
+
+}
+
+
+
+@mixin priceicon {
+   
+    font-size: map-get(  $price, fsi);
+    
+    position: map-get(  $price, pos);
+     left: map-get(  $price, lef);
+    
+   
+   
+ 
+ }
+
+ @mixin boxsupp{
+    position: map-get($boxsup, pos );
+    left: map-get($boxsup, leff );
+    bottom: map-get($boxsup, bot );
+    font-size: map-get($boxsup, fsi );
+
+
+ }
+
+  
+@mixin priceiconp {
+   
+    font-size: map-get($pricep, fsi );
+
+    
+    position: map-get(  $pricep, pos);
+     left: map-get(  $pricep, lef);
+     bottom: map-get($pricep, bot );
+   
+ 
+ }
+
+
+ @mixin priceimage{
+    height: map-get($pimg, height );
+    width: map-get($pimg,width);
+    position: map-get($pimg, pos );
+
+    bottom: map-get($pimg, bot );
+    left: map-get($pimg, lef );
+  
+ }
+
+ @mixin priceh6{
+    font-size: map-get($ph6,fsi  );
+    text-align: map-get($ph6,tal );
+    position: map-get($ph6,pos  );
+    bottom: map-get($ph6,bot  );
+    color: map-get($ph6,col  );
+ }
+
+
+
+
+
+@mixin pricepdel{
+    text-align: map-get($pdel, tal );
+    position: map-get($pdel, pos );
+    left: map-get($pdel, lef );
+    bottom: map-get($pdel, bot );
+    font-size: map-get($pdel, fsi );
+    color: map-get($pdel, col );
+}
+
+
+@mixin pricedel{
+    text-align: map-get($del, tal );
+    position: map-get($del, pos );
+    left: map-get($del, lef );
+    bottom: map-get($del, bot );
+    font-size: map-get($del, fsi );
+    color: map-get($del, col );
+}
+
+@mixin pricebutton{
+                height: map-get($pbutton, height );
+                width: map-get($pbutton, width );
+
+                background-color:map-get($pbutton, bcol );
+                position: map-get($pbutton, pos );
+                left: map-get($pbutton, lef );
+               bottom: map-get($pbutton, bot );
+                border-radius: map-get($pbutton, bra );
+              border: map-get($pbutton, bor );
+             
+                font-size: map-get($pbutton, fsi);
+                color: map-get($pbutton,col );
+                         
+                
+}
+
+
+@mixin subboxt {
+    height: map-get($tsubbox,height );
+    width: map-get($tsubbox,width );
+    border-radius: map-get($tsubbox,radius);
+    background-color: map-get($tsubbox,bxc );
+    border: map-get($tsubbox,br);
+
+}
+
+
+
+@mixin subboxti {
+    font-size: map-get($ti2,fonts );
+    position: map-get($ti2,pos );
+    left: map-get($ti2,lef);
+   top: map-get($ti2, to );
+   color: map-get($ti2, col );
+   
+}
+
+
+
+
+@mixin testh3{
+    text-align: map-get($th3, tal );
+    position: map-get($th3, pos );
+    top: map-get($th3, to );
+    color: map-get($th3, col );
+    
+}
+
+
+
+@mixin testimg{
+    height: map-get($timg, height );
+    width: map-get($timg, width );
+    border-radius: map-get($timg, br );
+    position: map-get($timg, pos );
+    top: map-get($timg, to );
+    left: map-get($timg, lef );
+}
+
+
+
+
+
+@mixin testp{
+    position:map-get($tp, pos );
+    left: map-get($tp, lef );
+    top: map-get($tp, to );
+}
+
+
+@mixin teamsubbox {
+    height: map-get($teambox,height );
+    width: map-get($teambox,width );
+    border-radius: map-get($teambox,radius);
+    background-color: map-get($teambox,bxc );
+    border: map-get($teambox,br);
+    border-radius: map-get($teambox, brad);
+
+}
+
+
+
+@mixin teamimage{
+    height: map-get($temimg, height );
+    width: map-get($temimg, width );
+    border-radius: map-get($temimg, bord );
+}
+
+
+
+
+@mixin teamh4{
+    text-align: map-get($temh4, tal );
+    position:map-get($temh4, pos );
+    top: map-get($temh4, to );
+    color: map-get($temh4, col);
+
+}
+
+
+@mixin teamh5{
+    text-align: map-get($temh5, tal );
+    position:map-get($temh5, pos );
+    top: map-get($temh5, to );
+    color: map-get($temh5, col);
+    font-size: map-get($temh5, fsi );
+
+}
+
+
+
+
+
+
+@mixin mainsubboxes{
+    height: map-get($mainsubbox, height );
+    width: map-get($mainsubbox, width );
+    background-color: map-get($mainsubbox, bcol );
+}
+
+
+
+
+@mixin mainsubboxh3{
+   
+
+   
+    color: map-get($boxh3, col );
+    font-size: map-get($boxh3, fsi );
+    position: map-get($boxh3, pos );
+    left: map-get($boxh3, lef );
+
+}
+
+
+
+@mixin subboxparagraph{
+    font-size: map-get($subp, fsi );
+    color: map-get($subp, col );
+    position: map-get($subp, pos );
+    left: map-get($subp, lef );
+    top: map-get($subp, to );
+}
+
+@mixin subboxi{
+    font-size: map-get($subi, fsiz );
+    color: map-get($subi, col );
+    position: map-get($subi, pos );
+    left: map-get($subi, lef );
+    top: map-get($subi, to );
+}

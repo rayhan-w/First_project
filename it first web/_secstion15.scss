@@ -1,0 +1,17 @@
+
+    .secstion15{
+        @include headingsec;
+        position: relative;
+        top: 30px;
+    
+        h5{
+            @include headingh5;
+        }
+        h2{
+            font-size: 40px;
+            color: blue;
+            text-align: center;
+            position: relative;
+            bottom: 75px;
+        }
+    }

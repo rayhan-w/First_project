@@ -1,0 +1,50 @@
+.herosection{
+            
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    position: relative;
+    bottom: 10px;
+    justify-content: space-between;
+   
+    background: url(https://bootstrapmade.com/demo/templates/FlexStart/assets/img/hero-bg.png) top center no-repeat;;
+    background-size: cover;
+        .heroleft{
+            h2{
+                font-size: 50px;
+                color: rgb(146, 15, 158);
+                position: relative;
+                left: 30px;
+            }
+            
+                h3{
+                    font-size: 30px;
+                    color:  rgb(93, 83, 94);
+                    position: relative;
+                    bottom: 65px;
+                    left: 30px;
+                }
+            button{
+                height: 50px;
+                width: 180px;
+                background-color: blue;
+                position: relative;
+                left: 30px;
+                bottom: 70px;
+                border-radius: 5px;
+                font-size: 20px;
+                color: white;
+
+                &:hover{
+                    color: lightblue;
+                }
+            }
+               
+
+        }
+
+        .heroright{
+            position: relative;
+            right: 20px;
+        }
+    }

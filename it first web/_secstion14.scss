@@ -1,0 +1,88 @@
+  
+    .secstion14{
+            
+        @include secmax;
+        justify-content: space-between;
+
+        .box1{
+            @include subboxt;
+            i{
+                    
+                @include subboxti ;
+                
+            }
+
+            h3{
+               
+
+                @include testh3;
+            }
+
+            img{
+
+                @include testimg;
+            }
+
+            p{
+                
+                @include testp;
+            }
+
+        }
+
+        .box2{
+            @include subboxt;
+
+            i{
+                    
+                @include subboxti ;
+                
+            }
+
+            h3{
+               
+
+                @include testh3;
+            }
+
+            img{
+
+                @include testimg;
+            }
+
+            p{
+                
+                @include testp;
+            }
+
+        }
+
+        .box3{
+            @include subboxt;
+
+            i{
+                    
+                @include subboxti ;
+                
+            }
+
+            h3{
+               
+
+                @include testh3;
+            }
+
+            img{
+
+                @include testimg;
+            }
+
+            p{
+                
+                @include testp;
+            }
+
+        }
+
+
+    }
